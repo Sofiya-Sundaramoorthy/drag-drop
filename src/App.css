@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+body {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  border: 1px solid white;
+}
+
+.to-do, .in-progress, .done {
+  border-right: 1px solid white;
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid white;
+  margin-bottom: 10px;
+  padding-right:2px;
+  padding-left: 2px;
+  /* padding: 2px; */
 }
